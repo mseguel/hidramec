@@ -81,9 +81,9 @@
 
 *,
 *::before,
-*::after {
+/* *::after {
   box-sizing: border-box;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -2897,11 +2897,11 @@ textarea.form-control-lg {
 
 .btn-info {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #0dcaf0;
-  --bs-btn-border-color: #0dcaf0;
+  --bs-btn-bg: #18205b;
+  --bs-btn-border-color: #18205b;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0baccc;
-  --bs-btn-hover-border-color: #0aa2c0;
+  --bs-btn-hover-bg: #c0ba0a;
+  --bs-btn-hover-border-color: #c0ba0a;
   --bs-btn-focus-shadow-rgb: 49, 210, 242;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #0aa2c0;
@@ -3032,14 +3032,14 @@ textarea.form-control-lg {
 }
 
 .btn-outline-info {
-  --bs-btn-color: #0dcaf0;
-  --bs-btn-border-color: #0dcaf0;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0dcaf0;
-  --bs-btn-hover-border-color: #0dcaf0;
+  --bs-btn-color: #18205b;
+  --bs-btn-border-color: #18205b;
+  --bs-btn-hover-color: #18205b;
+  --bs-btn-hover-bg: #18205b;
+  --bs-btn-hover-border-color: #18205b;
   --bs-btn-focus-shadow-rgb: 13, 202, 240;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0dcaf0;
+  --bs-btn-active-bg: #18205b;
   --bs-btn-active-border-color: #0dcaf0;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #0dcaf0;
@@ -4141,7 +4141,7 @@ textarea.form-control-lg {
 .navbar-dark {
   --bs-navbar-color: rgba(255, 255, 255, 0.55);
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
-  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+  --bs-navbar-disabled-color: rgb(255, 255, 255);
   --bs-navbar-active-color: #fff;
   --bs-navbar-brand-color: #fff;
   --bs-navbar-brand-hover-color: #fff;
@@ -7935,9 +7935,9 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
-.fst-italic {
+/* .fst-italic {
   font-style: italic !important;
-}
+} */
 
 .fst-normal {
   font-style: normal !important;
@@ -10848,7 +10848,7 @@ p {
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
   font-weight: 400;
-  font-style: italic;
+  /* font-style: italic; */
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
 }
@@ -10860,7 +10860,7 @@ p {
 }
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -10900,8 +10900,9 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #fff;
+  color: #17202a;
   letter-spacing: 0.0625em;
+  font-weight: bold;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #ffc800;
@@ -10926,7 +10927,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #FFFFFF;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10944,7 +10945,7 @@ p {
 }
 header.masthead {
   padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/header-bg.jpg");
@@ -10955,7 +10956,7 @@ header.masthead {
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
-  font-style: italic;
+  /* font-style: italic; */
   line-height: 1.5rem;
   margin-bottom: 25px;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10965,17 +10966,17 @@ header.masthead .masthead-heading {
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-bottom: 10rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
-    font-style: italic;
+    /* font-style: italic; */
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
@@ -11026,7 +11027,7 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-  font-style: italic;
+  /* font-style: italic; */
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -11044,7 +11045,7 @@ header.masthead .masthead-heading {
   line-height: 3rem;
 }
 .portfolio-modal .modal-content p.item-intro {
-  font-style: italic;
+  /* font-style: italic; */
   margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -11313,4 +11314,15 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#idPortada {
+  font-weight: bold;
+  font-size: 70px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#parrafo {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: larger;
 }
